@@ -4,6 +4,13 @@
         <title>Survey Questions</title>
     </head>
     <body>
+        <?php
+            session_start();
+            $submittedName = $_SESSION["name"];
+
+            Echo "Welcome, " . $submittedName;
+        ?>
+
         <h1>Survey Questions</h1>
         <p>Read the following statements and select the choice that applies the most to you</p>
         <br>

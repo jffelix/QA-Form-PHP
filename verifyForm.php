@@ -12,6 +12,10 @@
 
             $query = mysqli_query($connect, $sql);
 
+            session_start();
+
+            $_SESSION["name"] = $name;
+
             if ($query) {
                 Echo "User form successfully submitted!";
             } else {
@@ -19,5 +23,5 @@
             }
         }
 
-        header("Location: questionForms/questions.php");
+        header("Location: questions.php");
     }

@@ -11,13 +11,13 @@
             <h3>Please fill out your personal information below<h3>
         </div>
         <div>
-            <form action="./questionForms/questions.php" method="post">
+            <form action="./verifyForm.php" method="post">
                 <p>Name</p>
                 <input type="text" name="name"/>
                 <p>Email</p>
                 <input type="text" name="email"/>
                 <br><br>
-                <input type="submit" name="submit"/>
+                <input type="submit" name="submitUser"/>
             </form>
         </div>
     </body>

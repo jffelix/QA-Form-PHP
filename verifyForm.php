@@ -18,4 +18,6 @@
                 Echo "Error occurred.";
             }
         }
+
+        header("Location: questionForms/questions.php");
     }

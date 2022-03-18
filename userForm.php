@@ -11,7 +11,7 @@
             <h3>Please fill out your personal information below<h3>
         </div>
         <div>
-            <form action="verifyForm.php" method="post">
+            <form action="./questionForms/questions.php" method="post">
                 <p>Name</p>
                 <input type="text" name="name"/>
                 <p>Email</p>

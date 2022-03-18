@@ -68,7 +68,8 @@
                     <input type="radio" id="stronglyAgree" name="grateful" value="stronglyAgree"/>
                     <label>Strongly Agree</label>
                 </div>
-                <input type="submit" name="submitAnswers"/>
+                <br>
+                <input type="submit" id="<?php Echo $submittedName; ?>" name="submitAnswers"/>
             </form>
         </div>
 

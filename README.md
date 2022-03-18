@@ -12,3 +12,7 @@ Welcome to my first PHP application! This project was created in order to better
 - Create an adminView feature to view all user responses
 - Use log-in verification for admin users
 - Change topic for questions
+
+## How to run the application
+- Reference my PHP-Intro files for more info on setup
+- This application begins at userForm.php
